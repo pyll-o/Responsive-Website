@@ -1,0 +1,211 @@
+html{
+    font-size: 16px;
+}
+
+body {
+    background-color: white;
+    margin: 0px;
+}
+
+nav {
+    background-color: #20bf6b;
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 3.5rem;
+    position: fixed;
+    z-index: 9999;
+    top: 0%;
+}
+
+.navigation {
+    margin-left: 45%;
+}
+
+.navigation li {
+    list-style-type: none;
+    display: inline;
+    margin: 1rem;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    font-weight: 400;
+}
+
+.logo {
+    margin-left: 2%;
+    line-height: 3.5rem;
+    font-size: 2.5rem;
+}
+
+.logo p {
+    font-family: "Lobster", cursive;
+    margin-top: 0px ;
+}
+
+.images {
+    align-content: center;
+    position: relative;
+}
+
+.images img {
+    width: 30%;
+    height: auto;
+    margin: 1%;
+    box-shadow: #778ca3 5px 5px 16px;
+    display: inline-flex;
+}
+
+.landing {
+    background-image: url(../images/pexels-kaique-rocha-775201.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 36rem;
+    top: 0%;
+}
+
+.banner {
+    color: white;
+    line-height: 25rem;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 8rem;
+    font-family: "Lobster", cursive;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    margin-top: 3.5rem;
+}
+
+.container {
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+
+.intro {
+    color: #2d3436;
+    font-family: "Montserrat", serif;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.invite {
+    color: #2d3436;
+    font-family: "Montserrat", serif;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: normal;
+    padding: 1% 8%;
+}
+
+.testimonials {
+    background-color: #a5b1c2;
+    color: white;
+    width: 100%;
+    height: auto;
+    box-shadow: #778ca3 5px 5px 15px;
+}
+
+.testimonials h3 {
+    font-size: 2rem;
+    font-family: "Montserrat", serif;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+    padding-bottom: 0%;
+    font-weight: 500;
+    text-align: left;
+    font-style: italic;
+}
+
+.testimonials p {
+    font-size: 1.4rem;
+    font-family: "Oswald", sans-serif;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 0%;
+    padding-bottom: 2%;
+    font-weight: 200;
+    text-align: left;
+}
+
+.gallery {
+    padding-top: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 2%;
+}
+
+.gallery p {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: #2d3436;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.container .images {
+    display: block;
+    margin-left: auto;
+}
+
+.join {
+    display: flex;
+    text-align: center;
+    float: left;
+}
+
+.come {
+    font-family: "Montserrat", serif;
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 5%;
+}
+
+footer {
+    text-align: right;
+    background-color: #2d3436;
+    width: 100%;
+    height: 4rem;
+}
+
+footer .bar-logo {
+    font-family: "Lobster", cursive;
+    font-size: 2rem;
+    color: white;
+    margin-right: 2%;
+    line-height: 4rem;
+}
+
+@media only screen and (max-width: 700px) {
+    html {
+        font-size: 12px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .banner h1 {
+        font-size: 6rem;
+    }
+
+    .navigation {
+        margin-left: 30%;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .logo {
+        display: none;
+    }
+}
